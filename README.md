@@ -4,11 +4,11 @@ A collection of Bash scripts designed to automate macOS management tasks via Mos
 
 ## 📜 Available Scripts
 
-- **`Chrome - Cache & Cookies - FORCE`**  
+- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/clear_chrome_cache_force.sh"><strong>Chrome - Cache & Cookies - FORCE</strong></a>  
   *Description:*  
   Forcefully clears Chrome cache and cookies for all user profiles without user confirmation. This script ensures that all cached data and cookies are removed, which can help resolve persistent browser issues.
 
-- **`Chrome - Clear Cache & Cookies /w User Confirmation`**  
+- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/clear_chrome_cache_wprompt.sh"><strong>Chrome - Clear Cache & Cookies /w User Confirmation</strong></a>
   *Description:*  
   Prompts the user for confirmation before clearing Chrome cache and cookies for all user profiles. This approach allows users to decide when to clear their data, preventing unexpected session terminations.
 
