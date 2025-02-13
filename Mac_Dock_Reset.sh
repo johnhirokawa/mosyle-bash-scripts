@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dock - Reset
+# Mac Dock - Reset
 # Description: This script resets the Dock to its default state by clearing existing items and adding specified applications.
 
 # Will run all commands as the user
