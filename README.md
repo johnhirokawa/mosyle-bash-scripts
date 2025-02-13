@@ -8,7 +8,7 @@ A collection of Bash scripts designed to automate macOS management tasks via Mos
   *Description:*  
   Forcefully clears Chrome cache and cookies for all user profiles without user confirmation. This script ensures that all cached data and cookies are removed, which can help resolve persistent browser issues.
 
-- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/clear_chrome_cache_wprompt.sh"><strong>Chrome - Clear Cache & Cookies /w User Confirmation</strong></a>
+- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/clear_chrome_cache_wprompt.sh"><strong>Chrome - Clear Cache & Cookies /w User Confirmation</strong></a><br>
   *Description:*  
   Prompts the user for confirmation before clearing Chrome cache and cookies for all user profiles. This approach allows users to decide when to clear their data, preventing unexpected session terminations.
 
@@ -20,29 +20,30 @@ To deploy these scripts using Mosyle MDM, follow these steps:
    - Access your Mosyle dashboard.
 
 2. **Navigate to the Scripts Section:**
-   - Go to **Management** > **Scripts**.
+   - Go to **Management** > **Custom Commands**.
 
-3. **Add a New Script:**
-   - Click on **Add Script**.
-   - Enter a descriptive name for the script (e.g., "Chrome - Cache & Cookies - FORCE").
-
+3. **Add a Custom Command:**
+   - Click on **Add new profile**.
+   - Enter a Profile name for the script (e.g., "Chrome - Cache & Cookies - FORCE").
+   - Click into Code box (this will open up the editor).
+     
 4. **Configure the Script:**
-   - Paste the desired script into the script editor.
-   - Choose the **Run as** option based on the script's requirements:
-     - For scripts that require user interaction (e.g., displaying prompts), select **Logged-in User**.
-     - For scripts that do not require user interaction, select **System Administrator**.
+   - Paste the code into editor. From here you can also click "Add to Favorite Scripts" (This allows you to push command 'on demand' to devices).
+   - Click on check box at top right corner.
 
-5. **Set Execution Frequency:**
-   - Determine how often the script should run:
-     - **Once per device:** Runs the script a single time on each device.
-     - **Once per user:** Runs the script once for each user on a device.
-     - **Ongoing:** Runs the script at regular intervals.
+5. **Set Execution Settings:**
+   - Click on "Execution Settings" tab
+     - In drop down select "Do Not Send" (This makes it so the script doesn't run unless user chooses to run from self-service)
 
-6. **Assign the Script to Devices or Groups:**
-   - Select the devices or device groups where the script should be deployed.
+6. **Make available for Self-Service:**
+   - Check box for **Show profile in Self-Service, under "Your Scripts" tab**.
 
-7. **Save and Deploy:**
-   - Click **Save** to store the script.
+7. **Assign the Script to Devices or Groups:**
+   - Select **+ Add Assignment**
+   - Add assignment based on who you would like the script to be available for.
+
+8. **Save**
+   - Click **Save** to save the profile and provision script to the assigned devices.
    - The script will be deployed to the selected devices based on the configured settings.
 
 For detailed instructions and best practices, refer to Mosyle's official documentation: :contentReference[oaicite:0]{index=0}
