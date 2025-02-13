@@ -12,6 +12,10 @@ A collection of Bash scripts designed to automate macOS management tasks via Mos
   *Description:*  
   Prompts the user for confirmation before clearing Chrome cache and cookies for all user profiles. This approach allows users to decide when to clear their data, preventing unexpected session terminations.
 
+- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/clear_chrome_cache_wprompt.sh"><strong>OneDrive - Reset</strong></a><br>
+  *Description:*  
+  This script resets the OneDrive application by running the reset command and reopening the app. It ensures that any issues with OneDrive are resolved by performing a complete reset. 
+
 ## 🚀 How to Deploy via Mosyle MDM
 
 To deploy these scripts using Mosyle MDM, follow these steps:
