@@ -14,7 +14,13 @@ A collection of Bash scripts designed to automate macOS management tasks via Mos
 
 - <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/OneDrive_Reset.sh"><strong>OneDrive - Reset</strong></a><br>
   *Description:*  
-  This script resets the OneDrive application by running the reset command and reopening the app. It ensures that any issues with OneDrive are resolved by performing a complete reset. 
+  This script resets the OneDrive application by running the reset command and reopening the app. It ensures that any issues with OneDrive are resolved by performing a complete reset.
+
+- <a href="https://github.com/johnhirokawa/mosyle-bash-scripts/blob/main/Mac_Dock_Reset.sh"><strong>Mac Dock Reset</strong></a><br>
+  *Description:*  
+  This script resets the Dock to its default state by clearing existing items and adding specified applications. It prompts the user for confirmation before proceeding.
+
+  
 
 ## 🚀 How to Deploy via Mosyle MDM
 
